@@ -14,14 +14,6 @@ public class User {
     private Address address;
     private AccountType accountType;
 
-    public User(String email, String name, String surname, Address address, AccountType accountType) {
-        this.email = email;
-        this.name = name;
-        this.surname = surname;
-        this.address = address;
-        this.accountType = accountType;
-    }
-
     public String getId() {
         return id;
     }
