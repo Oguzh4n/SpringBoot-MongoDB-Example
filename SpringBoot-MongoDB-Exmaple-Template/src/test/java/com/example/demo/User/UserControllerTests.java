@@ -1,10 +1,10 @@
 package com.example.demo.User;
 
-import com.example.demo.Controller.UserController;
-import com.example.demo.Model.AccountType;
-import com.example.demo.Model.Address;
-import com.example.demo.Model.User;
-import com.example.demo.Service.UserService;
+import com.example.demo.D_Controller.UserController;
+import com.example.demo.A_Model.AccountType;
+import com.example.demo.A_Model.Address;
+import com.example.demo.A_Model.User;
+import com.example.demo.C_Service.UserService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.assertj.core.util.Lists;
 import org.junit.jupiter.api.BeforeEach;

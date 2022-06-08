@@ -1,9 +1,7 @@
-package com.example.demo.Repository;
+package com.example.demo.B_Repository;
 
-import com.example.demo.Model.User;
+import com.example.demo.A_Model.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
-import org.springframework.stereotype.Repository;
-import java.util.List;
 
 public interface UserRepository extends MongoRepository<User, String> {
     //Todo:

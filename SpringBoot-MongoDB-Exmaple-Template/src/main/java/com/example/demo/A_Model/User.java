@@ -1,8 +1,4 @@
-package com.example.demo.Model;
-
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
-import java.util.Objects;
+package com.example.demo.A_Model;
 
 public class User {
     //Todo:
