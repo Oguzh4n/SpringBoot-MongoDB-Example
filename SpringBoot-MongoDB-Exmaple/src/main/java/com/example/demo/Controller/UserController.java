@@ -25,7 +25,7 @@ public class UserController {
 
     // Get Users by name
     @GetMapping("/user")
-    public ResponseEntity<List<User>> getUsers(@RequestParam("name") String name) {
+    public ResponseEntity<List<User>> getUser(@RequestParam("name") String name) {
         List<User> users = this.userService.getUsersByName(name);
         return new ResponseEntity<>(users, HttpStatus.FOUND);
     }
@@ -34,6 +34,6 @@ public class UserController {
     @PostMapping("/user/delete")
     public ResponseEntity<String> deleteUser(@RequestParam("id") String id) {
         userService.deleteUser(id);
-        return new ResponseEntity<>(id, HttpStatus.NO_CONTENT);
+        return new ResponseEntity<>(id, HttpStatus.OK);
     }
 }

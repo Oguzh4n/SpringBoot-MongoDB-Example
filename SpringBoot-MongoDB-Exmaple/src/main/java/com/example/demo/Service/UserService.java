@@ -9,8 +9,8 @@ import java.util.List;
 public class UserService {
     private final UserRepository userRepository;
 
-    public UserService(UserRepository itemRepository) {
-        this.userRepository = itemRepository;
+    public UserService(UserRepository userRepository) {
+        this.userRepository = userRepository;
     }
 
     //Create or Update
