@@ -6,5 +6,5 @@ public class Address {
     //      - street
     //      - zipcode
     //      - town
-    // 2. Erstelle die getter / setter Funktionen für die Variablen
+    // 2. Implementiere die getter / setter Funktionen für die Variablen
 }

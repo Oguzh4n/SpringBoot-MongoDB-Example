@@ -1,8 +1,11 @@
 package com.example.demo.A_Model;
 
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
 public class User {
     //Todo:
-    // 1. Annotiere die Klasse, um aus dieser ein Dokument zu erzeugen
+    // 1. Annotiere die Klasse, um Objekte dieser Klasse in der MongoDB speichern zu können
     // 2. Füge die folgenden Variablen der Klasse hinzu
     //      - id
     //      - email
@@ -10,6 +13,6 @@ public class User {
     //      - surname
     //      - address
     //      - accountType
-    // 3. Annotiere die Variable "id" als Id
-    // 4. Erstelle die getter / setter Funktionen für die Variablen
+    // 3. Annotiere die Variable "id" als primären Schlüssel
+    // 4. Implementiere die getter / setter Funktionen für die Variablen
 }
