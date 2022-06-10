@@ -4,6 +4,7 @@ import com.example.demo.A_Model.User;
 import com.example.demo.B_Repository.UserRepository;
 import org.springframework.stereotype.Service;
 import java.util.List;
+
 public class UserService {
 
     //Todo:

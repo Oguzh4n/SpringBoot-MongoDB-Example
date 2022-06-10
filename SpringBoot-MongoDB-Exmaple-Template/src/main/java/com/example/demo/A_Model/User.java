@@ -5,7 +5,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 public class User {
     //Todo:
-    // 1. Annotiere die Klasse, um Objekte dieser Klasse in der MongoDB speichern zu können
+    // 1. Annotiere die Klasse, um Objekte in der MongoDB speichern zu können
     // 2. Füge die folgenden Variablen der Klasse hinzu
     //      - id
     //      - email
