@@ -1,5 +1,5 @@
 
-Docker-Compose ausführen:
+**Docker-Compose ausführen:**
 
 1. Öffne PowerShell
 2. Navigiere in powershell in den Ordner, in dem sich die "docker-compose.yml" Datei befindet
