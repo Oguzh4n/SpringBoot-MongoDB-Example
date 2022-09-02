@@ -16,10 +16,10 @@ public class UserController {
         this.userService = userService;
     }
 
-    // Create or Update User by ID
+    // Create User by ID
     @PostMapping("/user")
     public ResponseEntity<User> createOrUpdateUser(@RequestBody User user) {
-        this.userService.createOrUpdateUser(user);
+        this.userService.createUser(user);
         return new ResponseEntity<>(user, HttpStatus.CREATED);
     }
 
@@ -28,6 +28,13 @@ public class UserController {
     public ResponseEntity<List<User>> getUser(@RequestParam("name") String name) {
         List<User> users = this.userService.getUsersByName(name);
         return new ResponseEntity<>(users, HttpStatus.FOUND);
+    }
+
+    // Update User by ID
+    @PutMapping("/user/update")
+    public ResponseEntity<User> UpdateUser(@RequestParam("id") String id, @RequestBody User user) {
+        userService.updateUser(id, user);
+        return new ResponseEntity<>(user, HttpStatus.OK);
     }
 
     // Delete User by ID

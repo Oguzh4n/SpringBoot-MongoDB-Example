@@ -11,8 +11,9 @@ public class UserService {
     //  1. Annotiere die Klasse, um diesen als Service Klasse kenntlich zu machen
     //  ---
     //  Implementiere folgende Funktionen durch die Nutzung des Interface "UserRepository"
-    //  2. Implementiere eine Funktion zum Erzeugen und Updaten eines Users
+    //  2. Implementiere eine Funktion zum Erzeugen eines Users
     //  3. Implementiere eine Funktion zum Suchen von Usern mittels eines Namens
-    //  4. Implementiere eine Funktion zum Löschen eines Users mittels der User Id
+    //  4. Implementiere eine Funktion zum Updaten eines Users
+    //  5. Implementiere eine Funktion zum Löschen eines Users mittels der User Id
 
 }

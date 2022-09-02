@@ -25,14 +25,21 @@ public class UserController {
     //      - Der Name soll über einen Request Parameter übergeben werden
     //      - Die Funktion soll eine "ResponseEntity" mit den gefundenen Nutzern und mit einem passenden Statuscode zurückgeben
 
+    //Todo: Update Funktion
+    //  3. Implementiere eine Funktion zum Updaten eines Nutzers:
+    //      - Die Funktion soll über die URL "http://localhost:8080/user/update" aufgerufen werden
+    //      - Die Funktion soll mittels der Service Klasse die Variablen eines bestehenden Nutzers updaten können
+    //      - Die User ID soll über einen Request Parameter übergeben werden, sowie die zu aktualisierenden Variablen über den Request Body
+    //      - Die Funktion soll eine "ResponseEntity" mit dem geupdateten User zurückgeben
+
     //Todo: Delete Funktion
-    //  4. Implementiere eine Funktion zum Löschen eines Nutzers:
+    //  5. Implementiere eine Funktion zum Löschen eines Nutzers:
     //      - Die Funktion soll über die URL "http://localhost:8080/user/delete" aufgerufen werden
     //      - Die Funktion soll mittels der Service Klasse einen Nutzer mittels der Nutzer Id löschen
     //      - Die Nutzer Id soll über einen Request Parameter übergeben werden
     //      - Die Funktion soll eine "ResponseEntity" mit der gelöschten Id und einem passenden Statuscode zurückgeben
 
-    //Beispiel für einen Request Body:
+    //Beispiel für ein Request Body zum Erzeugen eines Users:
 /*  {
         "email": "maxmustermann@mail.com",
         "name": "max",
@@ -43,5 +50,10 @@ public class UserController {
             "town": "Musterstadt"
          },
         "accountType": "FREE"
+    }*/
+
+    //Beispiel für ein Request Body zum Updaten eines Users:
+/*  {
+        "name": "maxUpdated",
     }*/
 }
